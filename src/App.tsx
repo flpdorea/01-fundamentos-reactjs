@@ -1,14 +1,10 @@
-import { Post } from "./Post";
+import { Post } from './Post'
 
 export function App() {
   return (
     <>
-      <h1>Hello World!</h1>
-      <h1>Hello World!</h1>
-      <h1>Hello World!</h1>
-      <Post/>
-      <Post/>
-      <Post/>
+      <Post author='Felipe' content='Testando'/>
+      <Post author='John' content='Testing'/>
     </>
   )
 }
